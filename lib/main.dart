@@ -5,7 +5,7 @@ void main() => runApp(MyApp());
 
 Widget chooseWidget(String route) {
   switch (route) {
-    case 'r1':
+    case 'route_home':
       return MyApp();
     default:
       return Center(
